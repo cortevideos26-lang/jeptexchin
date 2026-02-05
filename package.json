@@ -1,0 +1,17 @@
+{
+  "name": "mademove is-website",
+  "version": "1.0.0",
+  "description": "Site da Madereira MADEMÓVEIS",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Build completed'",
+    "start": "echo 'Static site ready to deploy'"
+  },
+  "keywords": [
+    "madeira",
+    "móveis",
+    "marcenaria"
+  ],
+  "author": "MADEMÓVEIS",
+  "license": "ISC"
+}
