@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - MADEMÓVEIS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo-arvore.svg" alt="Logo MADEMÓVEIS" class="logo-img">
+                <h1>MADEMÓVEIS</h1>
+                <p class="tagline">Madeireira & Marcenaria</p>
+            </div>
+            <nav class="nav">
+                <a href="index.html#sobre">Sobre</a>
+
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle">Produtos <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="sala-de-estar.html">Sala de Estar</a>
+                        <a href="sala-de-jantar.html">Sala de Jantar</a>
+                        <a href="cozinha.html">Cozinha</a>
+                        <a href="quarto.html">Quarto</a>
+                        <a href="varanda.html">Varanda</a>
+                        <a href="escritorio.html">Escritório</a>
+                        <a href="complementos.html">Complementos</a>
+                    </div>
+                </div>
+
+                <a href="index.html#contato">Contato</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="index.html#localizacao">Localização</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Galeria Section -->
+    <section class="galeria-page">
+        <div class="container">
+            <h2>Galeria de Projetos</h2>
+            <p class="galeria-descricao">Conheça alguns dos nossos melhores trabalhos e projetos realizados</p>
+            <div class="gallery-grid">
+                <div class="gallery-item" onclick="showLightbox('GALERIA FOTOS/img-6122-800x600.jpg')">
+                    <img src="GALERIA FOTOS/img-6122-800x600.jpg" alt="Projeto 1">
+                </div>
+                <div class="gallery-item" onclick="showLightbox('GALERIA FOTOS/img-6125-800x600.jpg')">
+                    <img src="GALERIA FOTOS/img-6125-800x600.jpg" alt="Projeto 2">
+                </div>
+                <div class="gallery-item" onclick="showLightbox('GALERIA FOTOS/img-6126-800x600.jpg')">
+                    <img src="GALERIA FOTOS/img-6126-800x600.jpg" alt="Projeto 3">
+                </div>
+                <div class="gallery-item" onclick="showLightbox('GALERIA FOTOS/img-6253-800x600.jpg')">
+                    <img src="GALERIA FOTOS/img-6253-800x600.jpg" alt="Projeto 4">
+                </div>
+                <div class="gallery-item" onclick="showLightbox('GALERIA FOTOS/img-6255-450x600-450x600.jpg')">
+                    <img src="GALERIA FOTOS/img-6255-450x600-450x600.jpg" alt="Projeto 5">
+                </div>
+                <div class="gallery-item" onclick="showLightbox('GALERIA FOTOS/img-6256-450x600.jpg')">
+                    <img src="GALERIA FOTOS/img-6256-450x600.jpg" alt="Projeto 6">
+                </div>
+                <div class="gallery-item" onclick="showLightbox('GALERIA FOTOS/img-6257-800x600.jpg')">
+                    <img src="GALERIA FOTOS/img-6257-800x600.jpg" alt="Projeto 7">
+                </div>
+                <div class="gallery-item" onclick="showLightbox('GALERIA FOTOS/img-6258-800x600.jpg')">
+                    <img src="GALERIA FOTOS/img-6258-800x600.jpg" alt="Projeto 8">
+                </div>
+                <div class="gallery-item" onclick="showLightbox('GALERIA FOTOS/img-6259-450x600.jpg')">
+                    <img src="GALERIA FOTOS/img-6259-450x600.jpg" alt="Projeto 9">
+                </div>
+                <div class="gallery-item" onclick="showLightbox('GALERIA FOTOS/img-6262-800x600.jpg')">
+                    <img src="GALERIA FOTOS/img-6262-800x600.jpg" alt="Projeto 10">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MADEMÓVEIS</h3>
+                    <p>Madeireira & Marcenaria com qualidade garantida</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato Rápido</h4>
+                    <p>Email: <a href="mailto:mademoveisoficial@gmail.com">mademoveisoficial@gmail.com</a></p>
+                    <p>Endereço: Rua Paraguaçu, 787 - Fortaleza, CE</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MADEMÓVEIS. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp Flutuante -->
+    <a href="https://wa.me/5585999999999?text=Olá!%20Gostaria%20de%20informações%20sobre%20os%20produtos%20da%20MADEMÓVEIS." class="whatsapp-button" target="_blank" rel="noopener noreferrer" title="Fale conosco no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightboxImage" src="" alt="">
+        <a class="prev" onclick="prevImage()">&#10094;</a>
+        <a class="next" onclick="nextImage()">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

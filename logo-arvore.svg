@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Tronco -->
+  <rect x="85" y="120" width="30" height="60" fill="#8B6F47" rx="3"/>
+  
+  <!-- Raízes (discretas) -->
+  <path d="M 90 180 Q 80 185 75 182" stroke="#6D4C41" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 110 180 Q 120 185 125 182" stroke="#6D4C41" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Copa - Pinheiro com triângulos sobrepostos em verde -->
+  <!-- Nível superior (topo) -->
+  <polygon points="100,15 70,55 130,55" fill="#2D5016"/>
+  
+  <!-- Nível 2 -->
+  <polygon points="100,50 55,95 145,95" fill="#3D6B1F"/>
+  
+  <!-- Nível 3 -->
+  <polygon points="100,85 40,140 160,140" fill="#4A8C2A"/>
+  
+  <!-- Nível 4 (base da copa) -->
+  <polygon points="100,115 50,150 150,150" fill="#5BA838"/>
+  
+  <!-- Destaques/brilho (para dar volume) -->
+  <polygon points="100,25 85,50 90,45" fill="#6BC94F" opacity="0.7"/>
+  <polygon points="100,65 75,85 82,78" fill="#6BC94F" opacity="0.6"/>
+  <polygon points="100,100 70,125 80,115" fill="#6BC94F" opacity="0.5"/>
+  <polygon points="100,130 75,145 85,138" fill="#7AD85D" opacity="0.5"/>
+  
+  <!-- Lado direito com destaque -->
+  <polygon points="100,30 110,50 105,45" fill="#5BA838" opacity="0.8"/>
+  <polygon points="100,70 120,90 110,82" fill="#5BA838" opacity="0.7"/>
+  <polygon points="100,105 130,130 120,120" fill="#5BA838" opacity="0.6"/>
+</svg>
